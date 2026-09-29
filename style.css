@@ -1,0 +1,56 @@
+body {
+    background-color: #9b97b2;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #c8c5dd;
+    background-color: #304C89;
+    padding: 20px;
+    margin: 0;
+}
+
+.home-nav {
+    text-align: center;
+    background-color: #304C89 ;
+    padding: 15px;
+    font-size: large;
+}
+
+.home {
+    background-color: #776c8a;
+}
+
+.home img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.into {
+    font-size: larger;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    font-size: larger;
+    
+    padding: 150px 20px;
+    margin: 0px 150px;
+    color: #2f2840;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #242424;
+    color: whitesmoke;
+}
+
