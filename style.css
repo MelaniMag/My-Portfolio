@@ -46,6 +46,19 @@ body {
     color: #2f2840;
 }
 
+.whitespace {
+    margin-bottom: 500px;
+}
+
+.about {
+    background-color: #776c8a;
+}
+
+.education {
+    background-color: rgb(209, 205, 225);
+    padding: 50px;
+    border-radius: 20px;
+}
 
 footer {
     text-align: center;
