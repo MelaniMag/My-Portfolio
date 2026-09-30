@@ -1,9 +1,10 @@
 body {
     background-color: #9b97b2;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*LOGO*/
 .logo {
     font-size: 40px;
     font-weight: bold;
@@ -14,6 +15,7 @@ body {
     margin: 0;
 }
 
+/*NAVIGATION*/
 .home-nav {
     text-align: center;
     background-color: #304C89 ;
@@ -30,7 +32,7 @@ body {
     border-radius: 50%;
 }
 
-.into {
+.intro {
     font-size: larger;
 }
 
@@ -67,3 +69,26 @@ footer {
     color: whitesmoke;
 }
 
+/* MOBILE */
+@media (max-width: 768px) {
+
+.hero-text {
+flex-direction: column;
+text-align: center;
+padding: 80px 20px;
+}
+
+.home img {
+    width: 220px;
+    height: 220px;
+}
+
+.education {
+    padding: 30px;
+}
+
+.whitespace {
+    margin-bottom: 75px;
+}
+
+}
